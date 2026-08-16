@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: rgb(255, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+img {
+    width: 500px;
+    max-width: 90%;
+    border: 5px solid white;
+}
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+.button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #600000;
+}
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #cc0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.championships {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.championships h2 {
+    color: white;
+}
+
+.championships p {
+    color: white;
+}
+.constructors-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+.home-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.champions-home-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.top-image {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    max-width: 90%;
+}
